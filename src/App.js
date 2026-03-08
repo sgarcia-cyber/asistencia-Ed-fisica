@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import * as XLSX from "xlsx";
 
-const TEACHER_PIN = "1234";
-
+const TEACHER_PIN = "2489"
 function todayStr() { return new Date().toISOString().split("T")[0]; }
 function displayDate(str) { const [y,m,d]=str.split("-"); return `${d}/${m}/${y}`; }
 
